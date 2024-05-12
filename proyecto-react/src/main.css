@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 1rem;
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imgLogo {
+    width: 100px;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.itemListContainer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
