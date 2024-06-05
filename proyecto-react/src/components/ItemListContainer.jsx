@@ -10,6 +10,8 @@ export function ItemListContainer() {
 
   let [productos, setProductos] = useState([])
 
+  let [titulo, setTitulo] = useState ("Productos")
+
   function pedirProductos() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -28,15 +30,22 @@ export function ItemListContainer() {
           setProductos(res);
         }
     } )
+
+    if (categoryId) {
+      setTitulo(categories.find((cat) => cat.id === categoryId).nombre)
+    } else {
+      setTitulo("Productos")
+    }
   }, [categoryId])
 
 
   return (
+
     <main className='itemListContainer'>
       {
         productos.length > 0 ? 
         productos.map(productos => {
-          return <div>
+          return <div>    
                     <div className="tarjetaProductos">
                       <h3 className="h3Tarjeta"></h3>
                       <div className="tarjetaProductoDetail">
@@ -44,7 +53,7 @@ export function ItemListContainer() {
                         <p>{productos.nombre}</p>
                         <p>{productos.precio}</p>
                       </div>
-                      <button class="boton-elegante">Ver más</button>
+                      <Link to={`/item/${productos.id}`} className='boton-elegante'>Ver más</Link>
                     </div>
                 </div> 
         } ) : 
