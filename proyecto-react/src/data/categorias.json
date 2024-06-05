@@ -1,0 +1,18 @@
+[
+    {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+    },
+    {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+    },
+    {
+        "id": "circuito",
+        "nombre": "Circuito"
+    },
+    {
+        "id": "familiares",
+        "nombre": "Familiares"
+    }
+]

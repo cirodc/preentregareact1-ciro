@@ -1,0 +1,297 @@
+
+ [
+    {
+      "nombre": "Rolls-Royce Phantom",
+      "precio": "$450,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Rolls-Royce Phantom es la definición de lujo automotriz. Con un diseño imponente, tecnología de vanguardia y artesanía excepcional, ofrece una experiencia de conducción única.",
+      "caballos_de_fuerza": 563,
+      "velocidad_maxima": "250 km/h",
+      "aceleracion_0_100_kmh": "5.3 s",
+      "kilometraje_total": 5800,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Lamborghini Aventador",
+      "precio": "$417,826",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Lamborghini Aventador es un superdeportivo que combina potencia descomunal con un diseño agresivo. Cada detalle ha sido cuidadosamente diseñado para ofrecer una experiencia de conducción emocionante.",
+      "caballos_de_fuerza": 730,
+      "velocidad_maxima": "350 km/h",
+      "aceleracion_0_100_kmh": "2.9 s",
+      "kilometraje_total": 3200,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Ferrari 812 Superfast",
+      "precio": "$335,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "La Ferrari 812 Superfast es una obra maestra de la ingeniería italiana. Con un motor V12 de 6.5 litros y un diseño aerodinámico, es el epítome de la elegancia y la velocidad.",
+      "caballos_de_fuerza": 789,
+      "velocidad_maxima": "340 km/h",
+      "aceleracion_0_100_kmh": "2.9 s",
+      "kilometraje_total": 4500,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Bentley Continental GT",
+      "precio": "$202,500",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Bentley Continental GT es un coupé de lujo que combina un diseño impresionante con un rendimiento excepcional. Cada detalle interior está diseñado para brindar la máxima comodidad y estilo.",
+      "caballos_de_fuerza": 626,
+      "velocidad_maxima": "333 km/h",
+      "aceleracion_0_100_kmh": "3.7 s",
+      "kilometraje_total": 1500,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Mercedes-Maybach S-Class",
+      "precio": "$185,950",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Mercedes-Maybach S-Class es la encarnación del lujo moderno. Con un diseño elegante y una artesanía meticulosa, ofrece un viaje suave y lujoso para los pasajeros más exigentes.",
+      "caballos_de_fuerza": 496,
+      "velocidad_maxima": "250 km/h",
+      "aceleracion_0_100_kmh": "4.8 s",
+      "kilometraje_total": 3000,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Aston Martin DB11",
+      "precio": "$205,600",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Aston Martin DB11 es una combinación perfecta de belleza y rendimiento, con un diseño icónico y un motor potente.",
+      "caballos_de_fuerza": 630,
+      "velocidad_maxima": "322 km/h",
+      "aceleracion_0_100_kmh": "3.7 s",
+      "kilometraje_total": 7000,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Porsche 911 Turbo S",
+      "precio": "$203,500",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Porsche 911 Turbo S es sinónimo de velocidad y precisión, con una ingeniería alemana impecable y un diseño atemporal.",
+      "caballos_de_fuerza": 640,
+      "velocidad_maxima": "330 km/h",
+      "aceleracion_0_100_kmh": "2.7 s",
+      "kilometraje_total": 2100,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Bugatti Chiron",
+      "precio": "$3,000,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Bugatti Chiron es un superdeportivo de lujo con una potencia y velocidad incomparables, representando lo mejor de la ingeniería automotriz.",
+      "caballos_de_fuerza": 1500,
+      "velocidad_maxima": "420 km/h",
+      "aceleracion_0_100_kmh": "2.4 s",
+      "kilometraje_total": 1200,
+      "categoria": {
+        "id": "circuito",
+        "nombre": "Circuito"
+      }
+    },
+    {
+      "nombre": "Maserati Ghibli",
+      "precio": "$75,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Maserati Ghibli es una berlina deportiva que combina rendimiento y lujo con el inconfundible estilo italiano.",
+      "caballos_de_fuerza": 580,
+      "velocidad_maxima": "326 km/h",
+      "aceleracion_0_100_kmh": "4.0 s",
+      "kilometraje_total": 8900,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Audi R8",
+      "precio": "$196,800",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Audi R8 es un superdeportivo que ofrece una experiencia de conducción extraordinaria con su motor V10 y tracción total.",
+      "caballos_de_fuerza": 602,
+      "velocidad_maxima": "330 km/h",
+      "aceleracion_0_100_kmh": "3.2 s",
+      "kilometraje_total": 6400,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "McLaren 720S",
+      "precio": "$299,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El McLaren 720S es un superdeportivo británico con una ingeniería excepcional y un diseño aerodinámico avanzado.",
+      "caballos_de_fuerza": 710,
+      "velocidad_maxima": "341 km/h",
+      "aceleracion_0_100_kmh": "2.9 s",
+      "kilometraje_total": 2800,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Tesla Model S Plaid",
+      "precio": "$139,990",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Tesla Model S Plaid es un sedán eléctrico de alto rendimiento con una aceleración impresionante y tecnología avanzada.",
+      "caballos_de_fuerza": 1020,
+      "velocidad_maxima": "322 km/h",
+      "aceleracion_0_100_kmh": "2.1 s",
+      "kilometraje_total": 5000,
+      "categoria": {
+        "id": "familiares",
+        "nombre": "Familiares"
+      }
+    },
+    {
+      "nombre": "Jaguar F-Type",
+      "precio": "$103,200",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Jaguar F-Type es un coupé deportivo con un diseño elegante y un rendimiento impresionante, ofreciendo una experiencia de conducción emocionante.",
+      "caballos_de_fuerza": 575,
+      "velocidad_maxima": "300 km/h",
+      "aceleracion_0_100_kmh": "3.5 s",
+      "kilometraje_total": 3700,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Lexus LC 500",
+      "precio": "$92,950",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Lexus LC 500 es un coupé de lujo que combina un diseño impresionante con un rendimiento excepcional y una comodidad inigualable.",
+      "caballos_de_fuerza": 471,
+      "velocidad_maxima": "270 km/h",
+      "aceleracion_0_100_kmh": "4.4 s",
+      "kilometraje_total": 4600,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Bentley Bentayga",
+      "precio": "$177,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Bentley Bentayga es un SUV de lujo que ofrece una combinación única de rendimiento, confort y artesanía de alta calidad.",
+      "caballos_de_fuerza": 542,
+      "velocidad_maxima": "290 km/h",
+      "aceleracion_0_100_kmh": "4.5 s",
+      "kilometraje_total": 5200,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Rolls-Royce Cullinan",
+      "precio": "$330,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Rolls-Royce Cullinan es el SUV de lujo definitivo, ofreciendo un confort incomparable y un rendimiento sobresaliente en cualquier terreno.",
+      "caballos_de_fuerza": 563,
+      "velocidad_maxima": "250 km/h",
+      "aceleracion_0_100_kmh": "5.2 s",
+      "kilometraje_total": 1100,
+      "categoria": {
+        "id": "lujosos",
+        "nombre": "Lujosos"
+      }
+    },
+    {
+      "nombre": "Pagani Huayra",
+      "precio": "$2,800,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Pagani Huayra es una obra maestra de la ingeniería italiana, combinando una estética espectacular con un rendimiento impresionante.",
+      "caballos_de_fuerza": 720,
+      "velocidad_maxima": "383 km/h",
+      "aceleracion_0_100_kmh": "2.8 s",
+      "kilometraje_total": 700,
+      "categoria": {
+        "id": "circuito",
+        "nombre": "Circuito"
+      }
+    },
+    {
+      "nombre": "Ferrari SF90 Stradale",
+      "precio": "$625,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Ferrari SF90 Stradale es un superdeportivo híbrido que ofrece una combinación inigualable de potencia, tecnología y diseño italiano.",
+      "caballos_de_fuerza": 986,
+      "velocidad_maxima": "340 km/h",
+      "aceleracion_0_100_kmh": "2.5 s",
+      "kilometraje_total": 2200,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Lamborghini Huracan",
+      "precio": "$261,274",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Lamborghini Huracan es un superdeportivo que ofrece una experiencia de conducción extrema con su motor V10 y diseño agresivo.",
+      "caballos_de_fuerza": 602,
+      "velocidad_maxima": "325 km/h",
+      "aceleracion_0_100_kmh": "2.9 s",
+      "kilometraje_total": 4100,
+      "categoria": {
+        "id": "deportivo",
+        "nombre": "Deportivo"
+      }
+    },
+    {
+      "nombre": "Bugatti Veyron",
+      "precio": "$1,900,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Bugatti Veyron es un superdeportivo icónico conocido por su velocidad máxima impresionante y su diseño exclusivo.",
+      "caballos_de_fuerza": 1200,
+      "velocidad_maxima": "407 km/h",
+      "aceleracion_0_100_kmh": "2.5 s",
+      "kilometraje_total": 500,
+      "categoria": {
+        "id": "circuito",
+        "nombre": "Circuito"
+      }
+    },
+    {
+      "nombre": "Koenigsegg Jesko",
+      "precio": "$3,000,000",
+      "imagen": "url_de_la_imagen",
+      "descripcion": "El Koenigsegg Jesko es un hiperauto sueco diseñado para romper récords de velocidad, con una ingeniería avanzada y un diseño futurista.",
+      "caballos_de_fuerza": 1600,
+      "velocidad_maxima": "480 km/h",
+      "aceleracion_0_100_kmh": "2.6 s",
+      "kilometraje_total": 1000,
+      "categoria": {
+        "id": "circuito",
+        "nombre": "Circuito"
+      }
+    }
+  ]
