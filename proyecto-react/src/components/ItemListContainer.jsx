@@ -52,8 +52,8 @@ export function ItemListContainer() {
                         
                         <p>{productos.nombre}</p>
                         <p>{productos.precio}</p>
+                        <Link to={`/item/${productos.id}`} className='boton-elegante'>Ver más</Link>
                       </div>
-                      <Link to={`/item/${productos.id}`} className='boton-elegante'>Ver más</Link>
                     </div>
                 </div> 
         } ) : 

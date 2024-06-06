@@ -14,10 +14,12 @@
     right: 0;
     left: 0;
     transition: 0.3s;
+    z-index: 2;
 }
 header.bajar {
     background: transparent;
     backdrop-filter: blur(10px);
+    
     
 }
 
@@ -35,9 +37,7 @@ header.bajar {
     font-style: normal;
     transition: 0.3s;
 }
-.nav-link.bajar {
-    color: #1a1a1a;
-}
+
 .imgLogo {
     width: 100px;
 }
@@ -126,6 +126,7 @@ header.bajar {
     overflow: hidden;
     font-weight: bold;
     text-decoration: none;
+    z-index: 1;
   }
   
   .boton-elegante::after {

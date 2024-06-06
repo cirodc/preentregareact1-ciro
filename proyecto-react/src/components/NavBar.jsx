@@ -14,15 +14,13 @@ const NavBar = () => {
   return (
       <header className='header'>
         <img src="\images\logoInvertido.png" alt="logo" className='imgLogo' />
-        <nav className='nav'>
+        <nav>
             <ul className='navBar'>
-                <li><NavLink to="/" className="nav-link">Inicio</NavLink></li>
+                <NavLink to="/" className="nav-link">Inicio</NavLink>
                 {
                   categories.map((category) => {
                     return ( 
-                      <li>
                         <NavLink to={`/category/${category.id}`} className="nav-link">{category.nombre}</NavLink>
-                      </li>
                     )
 
                   })
